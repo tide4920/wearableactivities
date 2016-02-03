@@ -85,7 +85,7 @@ dim(test)
 #dim(bodygyrox_train)
 
 #bodygyroy_train <- read.table("./Coursera/body_gyro_y_train.txt")
-dim(bodygyroy_train)
+#dim(bodygyroy_train)
 
 #bodygyroz_train <- read.table("./Coursera/body_gyro_z_train.txt")
 #dim(bodygyroz_train)
@@ -164,7 +164,6 @@ names(finaldata)
 dim(finaldata)
 
 # the final tidy data set has 11,880 rows and 4 columns
-
 # write finaldata file to a table to upload
 
 library(data.table)
